@@ -67,4 +67,4 @@ Our default export contains all of our EcmaScript rules, including ECMAScript 6+
 
 3. Add `"@programic/eslint-config-base"` to `extends` in your .eslintrc.
 
-4. Add a lint script to your package.json: `eslint . --ext .js,.jsx` so you can run `npm run lint` or `yarn lint`. Where the `.` can be replaced with the path to your files. Replace the lint script if it already exists.
+4. Add a lint script to your package.json: `eslint . --ext .js,.jsx` so you can run `npm run lint` or `yarn lint`. The `.` can be replaced with the path to your files. Replace the lint script if it already exists.
