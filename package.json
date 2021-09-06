@@ -1,6 +1,6 @@
 {
   "name": "@programic/eslint-config-base",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Programic's base JS ESLint config, following our styleguide.",
   "main": "index.js",
   "scripts": {
@@ -35,9 +35,11 @@
     "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0",
     "eslint-plugin-import": "^2.23.4"
   },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.2.1"
+  },
   "devDependencies": {
     "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0",
-    "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-jest": "^24.4.0",
     "jest": "^27.0.6"
