@@ -24,6 +24,11 @@ module.exports = {
     }, {
       enforceForRenamedProperties: false,
     }],
+    'no-multiple-empty-lines': ['error', {
+      max: 2,
+      maxBOF: 0,
+      maxEOF: 0,
+    }],
     'padding-line-between-statements': ['error', {
       blankLine: 'always',
       prev: '*',
