@@ -44,5 +44,8 @@ module.exports = {
     'no-underscore-dangle': ['error', {
       allow: ['_uid'],
     }],
+    'no-constant-condition': ['error'],
+    'no-alert': ['error'],
+    'func-names': ['error'],
   },
 };
