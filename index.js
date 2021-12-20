@@ -46,6 +46,14 @@ module.exports = {
     }],
     'no-constant-condition': ['error'],
     'no-alert': ['error'],
+    'no-console': ['error', {
+      allow: ['warn', 'error'],
+    }],
     'func-names': ['error'],
+    'id-length': ['error', {
+      min: 2,
+      max: Infinity,
+      properties: 'always',
+    }],
   },
 };
