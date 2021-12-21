@@ -61,6 +61,7 @@ module.exports = {
       ignoreComments: false,
       ignoreRegExpLiterals: false,
       ignoreTemplateLiterals: false,
+      ignoreTrailingComments: false,
     }],
   },
 };
