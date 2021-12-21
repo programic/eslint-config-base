@@ -55,5 +55,12 @@ module.exports = {
       max: Infinity,
       properties: 'always',
     }],
+    'max-len': ['error', 100, 2, {
+      ignoreUrls: false,
+      ignoreStrings: false,
+      ignoreComments: false,
+      ignoreRegExpLiterals: false,
+      ignoreTemplateLiterals: false,
+    }],
   },
 };
