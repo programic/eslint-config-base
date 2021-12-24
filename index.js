@@ -60,7 +60,7 @@ module.exports = {
       properties: 'always',
     }],
     'max-len': ['error', 100, 2, {
-      ignoreUrls: false,
+      ignoreUrls: true,
       ignoreStrings: false,
       ignoreComments: false,
       ignoreRegExpLiterals: false,
