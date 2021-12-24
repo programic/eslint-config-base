@@ -1,3 +1,4 @@
+/* eslint-disable unicorn/prevent-abbreviations */
 module.exports = {
   parserOptions: {
     ecmaVersion: 2018,
