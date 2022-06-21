@@ -6,6 +6,7 @@ module.exports = {
   },
 
   plugins: [
+    'import-newlines',
     'unicorn',
   ],
 
@@ -67,6 +68,10 @@ module.exports = {
       ignoreRegExpLiterals: false,
       ignoreTemplateLiterals: false,
       ignoreTrailingComments: false,
+    }],
+    'import-newlines/enforce': ['error', {
+      items: 3,
+      'max-len': 100,
     }],
     'unicorn/better-regex': 'error',
     'unicorn/catch-error-name': 'error',
