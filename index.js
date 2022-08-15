@@ -1,8 +1,7 @@
 /* eslint-disable unicorn/prevent-abbreviations */
 module.exports = {
   parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: 'module',
+    ecmaVersion: 2020,
   },
 
   plugins: [
